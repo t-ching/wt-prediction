@@ -44,6 +44,9 @@ Following the repository organisation, the core elements are:
        R² Score       0.848             0.806       0.042
      ------------------------------------------------------
        ```
+    * Model diagnotics
+      
+
 3. **Frontend Web Interfaces** (`/templates`)
    * A responsive, column-aligned user interface built with semantic HTML structure:
      * `CheckWaitingTime.html`: A clean data-entry dashboard capturing parameters such as staff on duty, temperature, current rainfall, historical room vacancy rates, and priority triage statuses.
