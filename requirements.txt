@@ -1,0 +1,8 @@
+flask
+joblib
+scikit-learn==1.8.0
+gunicorn
+python-dotenv
+Pandas
+cryptography
+lightgbm

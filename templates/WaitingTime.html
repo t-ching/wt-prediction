@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <title>Indigo | Waiting time prediction</title>
+</head>
+<body>
+  <!--<img src="/static/img/logo.svg" alt="Logo" class="page-logo">-->
+<div class="page-wrapper">
+  <h2>Indigo Community Services and Health Hub</h2>
+  <h2>Waiting time prediction</h2>
+  <br>
+  Your predicted waiting time is {{waittime}} minutes.
+  <br>
+  <br>
+  <p style="font-size: 0.9rem; color: #666; line-height: 1.6; max-width: 750px;">
+    This waiting time prediction is generated from historical data across approximately 100k patients. 
+    The underlying model utilises a two-stage LightGBM architecture, yielding a validation error rate 
+    of less than 2 minutes.
+  </p>
+  <br>
+  <a href="/">Return to main page</a>
+</div>
+</body>
+</html>
