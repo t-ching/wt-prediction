@@ -44,8 +44,8 @@ Following the repository organisation, the core elements are:
        R² Score       0.848             0.806       0.042
      ------------------------------------------------------
        ```
-    * Model diagnotics
-      
+    * Model diagnostics
+      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/d1dca937-296c-4e67-9cf7-6810f43b5dab" />
 
 3. **Frontend Web Interfaces** (`/templates`)
    * A responsive, column-aligned user interface built with semantic HTML structure:
