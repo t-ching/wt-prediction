@@ -41,11 +41,11 @@ Following the repository organisation, the core elements are:
        Metric     Training(80%)    Validation(20%)    Gap
      ------------------------------------------------------
        MAE            1.821             1.955       0.134
-       R² Score       0.837             0.798       0.038
+       R² Score       0.836             0.798       0.038
      ------------------------------------------------------
        ```
     * Model diagnostics
-      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/cc144c24-68ef-4311-a0c4-b15d66c9c3fa" />
+      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/cdaec545-4d81-4b65-be5b-ebb464a67de6" />
 
 3. **Frontend Web Interfaces** (`/templates`)
    * A responsive, column-aligned user interface built with semantic HTML structure:
