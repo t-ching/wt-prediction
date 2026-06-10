@@ -40,8 +40,8 @@ Following the repository organisation, the core elements are:
               Two-stage LightGBM Baseline Report
        Metric     Training(80%)    Validation(20%)    Gap
      ------------------------------------------------------
-       MAE            1.777             1.936       0.159
-       R² Score       0.848             0.806       0.042
+       MAE            1.821             1.955       0.134
+       R² Score       0.837             0.798       0.038
      ------------------------------------------------------
        ```
     * Model diagnostics
