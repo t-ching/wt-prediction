@@ -45,7 +45,7 @@ Following the repository organisation, the core elements are:
      ------------------------------------------------------
        ```
     * Model diagnostics
-      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/d1dca937-296c-4e67-9cf7-6810f43b5dab" />
+      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/cc144c24-68ef-4311-a0c4-b15d66c9c3fa" />
 
 3. **Frontend Web Interfaces** (`/templates`)
    * A responsive, column-aligned user interface built with semantic HTML structure:
