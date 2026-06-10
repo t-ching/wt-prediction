@@ -71,10 +71,6 @@ def show_waiting_time():
     # Build initial dataframe profile structure
     X_df = pd.DataFrame([X], columns=featureList)
 
-    # Feature Engineering: Compute derived variable on the fly
-    # (+1e-5 safety rail protects against division-by-zero if receptionists == 0)
-    X_df['Workload_Ratio'] = X_df['NumDoctorsOnDuty'] / (X_df['NumReceptionistsOnDuty'] + 1e-5)
-
     # Enforce strict index alignment to match the exact tree column sequences
     X_df = X_df[features_all]
 
