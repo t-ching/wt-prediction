@@ -2,7 +2,7 @@
 
 An end-to-end machine learning web application that predicts patient clinic waiting times based on operational variables (such as staff counts, weather conditions, historical client data, and clinic capacity metrics).
 
-🔗 **Live Demo:** <a href="https://clinic-waiting-time-prediction.onrender.com/" target="_blank" rel="noopener noreferrer">Indigo Waiting Time Predictor</a>
+🔗 **Live Demo:** [Indigo Waiting Time Predictor](https://clinic-waiting-time-prediction.onrender.com/)
 
 > ⚠️ **Note on Free Hosting:** The live application is hosted on a free Render tier. If the app hasn’t been visited recently, the server will spin down ("go to sleep"). Please allow **30–60 seconds** for the instance to "wake up" upon your first load.
 
