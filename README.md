@@ -45,8 +45,9 @@ Following the repository organisation, the core elements are:
      --------------------------------------------------
        ```
     * Model diagnostics
-      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/cdaec545-4d81-4b65-be5b-ebb464a67de6" />
-
+      <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/ff790300-6e82-4c44-9389-828d3a95cea5" />
+    * Feature Importance (SHAP)
+      
 3. **Frontend Web Interfaces** (`/templates`)
    * A responsive, column-aligned user interface built with semantic HTML structure:
      * `CheckWaitingTime.html`: A clean data-entry dashboard capturing parameters such as staff on duty, temperature, current rainfall, historical room vacancy rates, and priority triage statuses.
