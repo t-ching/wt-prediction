@@ -37,12 +37,12 @@ Following the repository organisation, the core elements are:
    * The core production pipeline artifact (`lightgbm_2stage_pipeline.enc`) is securely encrypted to protect proprietary model configurations and parameters.
    * Model performance summary:
      ```text
-              Two-stage LightGBM Baseline Report
-       Metric     Training(80%)    Validation(20%)     Gap
-     -------------------------------------------------------
-       MAE           1.9027            1.9991       0.0964    
-       R² Score      0.8113            0.7747       0.0366
-     -------------------------------------------------------
+             Two-stage LightGBM Baseline Report
+     Metric    Training(80%)    Validation(20%)     Gap
+     --------------------------------------------------
+     MAE           1.9027            1.9991      0.0964    
+     R² Score      0.8113            0.7747      0.0366
+     --------------------------------------------------
        ```
     * Model diagnostics
       <img width="7869" height="4569" alt="Image" src="https://github.com/user-attachments/assets/cdaec545-4d81-4b65-be5b-ebb464a67de6" />
