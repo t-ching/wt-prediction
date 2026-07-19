@@ -82,7 +82,7 @@ def show_waiting_time():
     # Optional safety rail: Ensure final time never drops below 0 due to minor noise
     final_waiting_time = max(0.0, final_waiting_time)
     wait_min = int(final_waiting_time)
-    wait_sec = int(final_waiting_time * 60) + 1
+    wait_sec = int((final_waiting_time - wait_min) * 60) + 1
 
     # return render_template('WaitingTime.html', waittime=round(final_waiting_time, 2))
     return render_template('WaitingTime.html', waitmin = wait_min, waitsec = wait_sec)
