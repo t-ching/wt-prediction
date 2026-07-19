@@ -85,7 +85,7 @@ def show_waiting_time():
     wait_sec = int(final_waiting_time * 60) + 1
 
     return render_template('WaitingTime.html', waittime=round(final_waiting_time, 2))
-    # return render_template('WaitingTime.html', wait_min = wait_min, wait_sec = wait_sec)
+    return render_template('WaitingTime.html', waitmin = wait_min, waitsec = wait_sec)
 
 if __name__ == '__main__':
     app.run(debug=True)
